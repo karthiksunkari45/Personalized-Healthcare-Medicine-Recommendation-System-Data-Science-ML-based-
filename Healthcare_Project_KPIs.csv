@@ -1,0 +1,9 @@
+Metric,Value
+Dataset rows,349.0
+Dataset columns,14.0
+Positive outcomes,186.0
+Negative outcomes,163.0
+High risk,90.0
+Medium risk,198.0
+Low risk,61.0
+Test accuracy,0.7857

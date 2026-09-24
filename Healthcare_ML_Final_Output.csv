@@ -1,0 +1,350 @@
+disease,fever,cough,fatigue,difficulty_breathing,age,gender,blood_pressure,cholesterol_level,outcome_variable,age_scaled,bp_scaled,chol_scaled,risk_level,predicted_risk_level,risk_match,prediction_confidence,care_pathway
+Influenza,Yes,No,Yes,Yes,19,female,0,1,Positive,-2.091159685,-2.419529174,-0.576776779,Low,Low,1,0.75,Routine monitoring
+Common Cold,No,Yes,Yes,No,25,female,1,1,Negative,-1.631964176,-0.723915355,-0.576776779,Low,Low,1,0.7667,Routine monitoring
+Eczema,No,Yes,Yes,No,25,female,1,1,Negative,-1.631964176,-0.723915355,-0.576776779,Medium,Medium,1,0.92,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,25,male,1,1,Positive,-1.631964176,-0.723915355,-0.576776779,Medium,Medium,1,0.9933,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,25,male,1,1,Positive,-1.631964176,-0.723915355,-0.576776779,Medium,Medium,1,0.9933,Routine clinical review / monitoring
+Eczema,Yes,No,No,No,25,female,1,1,Positive,-1.631964176,-0.723915355,-0.576776779,Medium,Medium,1,0.8733,Routine clinical review / monitoring
+Influenza,Yes,Yes,Yes,Yes,25,female,1,1,Positive,-1.631964176,-0.723915355,-0.576776779,Low,Low,1,0.9767,Routine monitoring
+Influenza,Yes,Yes,Yes,Yes,25,female,1,1,Positive,-1.631964176,-0.723915355,-0.576776779,Low,Low,1,0.9767,Routine monitoring
+Hyperthyroidism,No,Yes,No,No,28,female,1,1,Negative,-1.402366421,-0.723915355,-0.576776779,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Hyperthyroidism,No,Yes,No,No,28,female,1,1,Negative,-1.402366421,-0.723915355,-0.576776779,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Asthma,Yes,No,No,Yes,28,male,2,1,Positive,-1.402366421,0.971698463,-0.576776779,Medium,Medium,1,0.9733,Routine clinical review / monitoring
+Allergic Rhinitis,No,Yes,Yes,No,29,female,1,0,Negative,-1.325833836,-0.723915355,-2.101739626,Low,Low,1,0.8267,Routine monitoring
+Anxiety Disorders,No,Yes,No,No,29,female,1,2,Negative,-1.325833836,-0.723915355,0.948186068,Medium,Medium,1,0.96,Routine clinical review / monitoring
+Common Cold,No,No,No,No,29,female,0,1,Negative,-1.325833836,-2.419529174,-0.576776779,Low,Low,1,0.8167,Routine monitoring
+Diabetes,No,No,No,No,29,male,0,1,Negative,-1.325833836,-2.419529174,-0.576776779,Medium,Medium,1,0.89,Routine clinical review / monitoring
+Gastroenteritis,No,Yes,No,No,29,female,1,1,Negative,-1.325833836,-0.723915355,-0.576776779,Medium,Medium,1,0.9667,Routine clinical review / monitoring
+Pancreatitis,Yes,No,No,No,29,female,2,1,Negative,-1.325833836,0.971698463,-0.576776779,High,High,1,0.75,Clinical review recommended
+Rheumatoid Arthritis,No,Yes,Yes,Yes,29,female,2,2,Negative,-1.325833836,0.971698463,0.948186068,Medium,Medium,1,0.88,Routine clinical review / monitoring
+Depression,Yes,Yes,Yes,Yes,29,male,2,1,Positive,-1.325833836,0.971698463,-0.576776779,Medium,Medium,1,0.65,Routine clinical review / monitoring
+Liver Cancer,Yes,Yes,Yes,Yes,29,female,1,1,Positive,-1.325833836,-0.723915355,-0.576776779,High,Medium,0,0.3633,Routine clinical review / monitoring
+Stroke,Yes,Yes,Yes,Yes,29,female,1,1,Positive,-1.325833836,-0.723915355,-0.576776779,High,High,1,0.4267,Clinical review recommended
+Urinary Tract Infection,Yes,Yes,Yes,No,29,male,2,2,Positive,-1.325833836,0.971698463,0.948186068,Low,Low,1,0.7633,Routine monitoring
+Dengue Fever,Yes,No,Yes,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Low,Low,1,0.69,Routine monitoring
+Dengue Fever,Yes,No,Yes,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Low,Low,1,0.69,Routine monitoring
+Eczema,No,Yes,Yes,No,30,male,2,2,Negative,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Gastroenteritis,Yes,Yes,Yes,No,30,male,2,2,Negative,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Hepatitis,Yes,Yes,Yes,Yes,30,male,2,1,Negative,-1.249301251,0.971698463,-0.576776779,Medium,Medium,1,0.8433,Routine clinical review / monitoring
+Kidney Cancer,No,No,Yes,No,30,male,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,High,High,1,0.8233,Clinical review recommended
+Migraine,Yes,No,No,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.9533,Routine clinical review / monitoring
+Migraine,No,Yes,Yes,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.9533,Routine clinical review / monitoring
+Muscular Dystrophy,No,No,Yes,No,30,male,2,2,Negative,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Sinusitis,No,Yes,Yes,No,30,male,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Low,Low,1,0.65,Routine monitoring
+Ulcerative Colitis,Yes,Yes,No,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.8833,Routine clinical review / monitoring
+Ulcerative Colitis,No,Yes,Yes,No,30,female,1,1,Negative,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.94,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.9967,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.9967,Routine clinical review / monitoring
+Asthma,Yes,Yes,Yes,Yes,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Bipolar Disorder,No,No,Yes,No,30,female,2,2,Positive,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.8167,Routine clinical review / monitoring
+Bronchitis,Yes,Yes,No,Yes,30,female,0,1,Positive,-1.249301251,-2.419529174,-0.576776779,Low,Low,1,0.6333,Routine monitoring
+Bronchitis,Yes,Yes,Yes,Yes,30,male,2,2,Positive,-1.249301251,0.971698463,0.948186068,Low,Low,1,0.94,Routine monitoring
+Bronchitis,Yes,Yes,Yes,Yes,30,male,2,2,Positive,-1.249301251,0.971698463,0.948186068,Low,Low,1,0.94,Routine monitoring
+Cerebral Palsy,No,No,Yes,Yes,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.7867,Routine clinical review / monitoring
+Colorectal Cancer,No,No,Yes,No,30,female,1,2,Positive,-1.249301251,-0.723915355,0.948186068,High,High,1,0.7467,Clinical review recommended
+Eczema,Yes,No,No,No,30,male,2,2,Positive,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.9867,Routine clinical review / monitoring
+Hypertensive Heart Disease,No,No,Yes,No,30,female,2,2,Positive,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.6567,Routine clinical review / monitoring
+Influenza,Yes,Yes,Yes,No,30,male,2,1,Positive,-1.249301251,0.971698463,-0.576776779,Low,Low,1,0.8433,Routine monitoring
+Influenza,Yes,Yes,Yes,Yes,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Low,Low,1,0.9433,Routine monitoring
+Multiple Sclerosis,No,No,Yes,No,30,female,2,2,Positive,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.6733,Routine clinical review / monitoring
+Myocardial Infarction (Heart...,Yes,Yes,Yes,Yes,30,female,2,2,Positive,-1.249301251,0.971698463,0.948186068,Medium,Medium,1,0.8067,Routine clinical review / monitoring
+Urinary Tract Infection (UTI),Yes,No,No,No,30,female,1,1,Positive,-1.249301251,-0.723915355,-0.576776779,Medium,Medium,1,0.8033,Routine clinical review / monitoring
+Asthma,No,No,No,Yes,31,male,1,0,Negative,-1.172768666,-0.723915355,-2.101739626,Medium,Medium,1,0.9533,Routine clinical review / monitoring
+Osteoporosis,No,No,No,Yes,31,male,0,1,Negative,-1.172768666,-2.419529174,-0.576776779,Medium,Medium,1,0.9167,Routine clinical review / monitoring
+Common Cold,Yes,No,Yes,Yes,31,male,2,2,Positive,-1.172768666,0.971698463,0.948186068,Low,Low,1,0.8033,Routine monitoring
+Migraine,Yes,No,No,No,31,female,1,1,Positive,-1.172768666,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Pneumonia,Yes,No,Yes,Yes,32,female,2,1,Positive,-1.096236081,0.971698463,-0.576776779,Low,Low,1,0.6867,Routine monitoring
+Allergic Rhinitis,No,No,Yes,No,35,female,1,0,Negative,-0.866638326,-0.723915355,-2.101739626,Low,Low,1,0.7833,Routine monitoring
+Asthma,No,Yes,Yes,Yes,35,female,1,2,Negative,-0.866638326,-0.723915355,0.948186068,Medium,Medium,1,0.9733,Routine clinical review / monitoring
+Asthma,Yes,Yes,Yes,Yes,35,female,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,0.9767,Routine clinical review / monitoring
+Asthma,No,Yes,Yes,Yes,35,female,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Medium,Medium,1,0.9833,Routine clinical review / monitoring
+Asthma,No,Yes,Yes,Yes,35,female,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Medium,Medium,1,0.9833,Routine clinical review / monitoring
+Atherosclerosis,No,No,Yes,No,35,male,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,0.7967,Routine clinical review / monitoring
+Chronic Obstructive Pulmonary...,Yes,Yes,Yes,Yes,35,male,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,0.5133,Routine clinical review / monitoring
+Common Cold,Yes,Yes,Yes,No,35,male,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Low,Low,1,0.8467,Routine monitoring
+Eczema,No,Yes,No,No,35,male,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Epilepsy,No,No,Yes,No,35,male,2,2,Negative,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9067,Routine clinical review / monitoring
+Hypertension,Yes,Yes,Yes,No,35,female,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Medium,Medium,1,0.86,Routine clinical review / monitoring
+Hyperthyroidism,Yes,Yes,Yes,No,35,female,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,0.93,Routine clinical review / monitoring
+Obsessive-Compulsive Disorde...,No,No,Yes,No,35,male,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,0.6067,Routine clinical review / monitoring
+Pneumonia,Yes,Yes,Yes,Yes,35,female,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Low,Low,1,0.94,Routine monitoring
+Pneumonia,Yes,Yes,Yes,Yes,35,female,1,1,Negative,-0.866638326,-0.723915355,-0.576776779,Low,Low,1,0.94,Routine monitoring
+Psoriasis,Yes,No,No,No,35,female,1,0,Negative,-0.866638326,-0.723915355,-2.101739626,Medium,Medium,1,0.7667,Routine clinical review / monitoring
+Psoriasis,No,Yes,Yes,No,35,female,1,0,Negative,-0.866638326,-0.723915355,-2.101739626,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Rubella,Yes,No,Yes,No,35,female,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Low,Low,1,0.8767,Routine monitoring
+Rubella,Yes,No,Yes,No,35,female,2,1,Negative,-0.866638326,0.971698463,-0.576776779,Low,Low,1,0.8767,Routine monitoring
+Urinary Tract Infection (UTI),No,Yes,Yes,No,35,male,2,2,Negative,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,35,male,1,1,Positive,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,1.0,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,35,male,1,1,Positive,-0.866638326,-0.723915355,-0.576776779,Medium,Medium,1,1.0,Routine clinical review / monitoring
+Cirrhosis,No,No,Yes,No,35,female,1,2,Positive,-0.866638326,-0.723915355,0.948186068,High,High,1,0.73,Clinical review recommended
+Conjunctivitis (Pink Eye),No,Yes,No,No,35,female,2,2,Positive,-0.866638326,0.971698463,0.948186068,Low,Medium,0,0.8533,Routine clinical review / monitoring
+Depression,No,No,Yes,No,35,female,1,2,Positive,-0.866638326,-0.723915355,0.948186068,Medium,Medium,1,0.75,Routine clinical review / monitoring
+Gastroenteritis,Yes,No,Yes,Yes,35,male,0,2,Positive,-0.866638326,-2.419529174,0.948186068,Medium,Medium,1,0.7067,Routine clinical review / monitoring
+Hyperthyroidism,Yes,Yes,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.94,Routine clinical review / monitoring
+Hyperthyroidism,Yes,Yes,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.94,Routine clinical review / monitoring
+Kidney Cancer,No,No,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,High,High,1,0.8333,Clinical review recommended
+Liver Cancer,No,No,Yes,No,35,female,2,2,Positive,-0.866638326,0.971698463,0.948186068,High,High,1,0.8067,Clinical review recommended
+Liver Disease,No,No,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,High,High,1,0.7367,Clinical review recommended
+Malaria,Yes,No,No,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9967,Routine clinical review / monitoring
+Malaria,Yes,No,No,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9967,Routine clinical review / monitoring
+Migraine,No,Yes,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9833,Routine clinical review / monitoring
+Migraine,Yes,No,No,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9967,Routine clinical review / monitoring
+Pancreatitis,No,No,Yes,No,35,male,1,2,Positive,-0.866638326,-0.723915355,0.948186068,High,High,1,0.78,Clinical review recommended
+Rheumatoid Arthritis,Yes,Yes,Yes,No,35,male,1,0,Positive,-0.866638326,-0.723915355,-2.101739626,Medium,Medium,1,0.8733,Routine clinical review / monitoring
+Rheumatoid Arthritis,No,No,Yes,No,35,female,1,0,Positive,-0.866638326,-0.723915355,-2.101739626,Medium,High,0,0.4733,Clinical review recommended
+Spina Bifida,No,No,Yes,No,35,female,1,1,Positive,-0.866638326,-0.723915355,-0.576776779,High,High,1,0.81,Clinical review recommended
+Ulcerative Colitis,No,No,Yes,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,0.9167,Routine clinical review / monitoring
+Ulcerative Colitis,Yes,No,No,No,35,male,2,2,Positive,-0.866638326,0.971698463,0.948186068,Medium,Medium,1,1.0,Routine clinical review / monitoring
+Urinary Tract Infection,Yes,No,Yes,No,35,female,1,2,Positive,-0.866638326,-0.723915355,0.948186068,Low,Low,1,0.8367,Routine monitoring
+Allergic Rhinitis,No,Yes,No,No,38,female,0,1,Negative,-0.637040571,-2.419529174,-0.576776779,Low,Low,1,0.8033,Routine monitoring
+Depression,No,No,No,No,38,female,1,2,Negative,-0.637040571,-0.723915355,0.948186068,Medium,Medium,1,0.8333,Routine clinical review / monitoring
+Gastroenteritis,No,No,No,No,38,male,1,0,Negative,-0.637040571,-0.723915355,-2.101739626,Medium,Medium,1,0.88,Routine clinical review / monitoring
+Influenza,No,No,No,No,38,male,1,1,Negative,-0.637040571,-0.723915355,-0.576776779,Low,Low,1,0.7333,Routine monitoring
+Kidney Disease,No,No,Yes,No,38,female,0,1,Negative,-0.637040571,-2.419529174,-0.576776779,High,High,1,0.8,Clinical review recommended
+Liver Cancer,Yes,Yes,No,No,38,female,2,1,Negative,-0.637040571,0.971698463,-0.576776779,High,High,1,0.7667,Clinical review recommended
+Liver Disease,No,Yes,No,Yes,38,male,0,1,Negative,-0.637040571,-2.419529174,-0.576776779,High,High,1,0.69,Clinical review recommended
+Osteoporosis,No,Yes,No,No,38,female,1,2,Negative,-0.637040571,-0.723915355,0.948186068,Medium,Medium,1,0.9467,Routine clinical review / monitoring
+Stroke,Yes,Yes,No,No,38,female,2,1,Negative,-0.637040571,0.971698463,-0.576776779,High,High,1,0.7133,Clinical review recommended
+Anxiety Disorders,Yes,No,Yes,Yes,38,male,2,2,Positive,-0.637040571,0.971698463,0.948186068,Medium,Medium,1,0.8633,Routine clinical review / monitoring
+Diabetes,Yes,No,Yes,Yes,38,male,2,0,Positive,-0.637040571,0.971698463,-2.101739626,Medium,Medium,1,0.8733,Routine clinical review / monitoring
+Migraine,Yes,Yes,No,No,38,male,2,2,Positive,-0.637040571,0.971698463,0.948186068,Medium,Medium,1,0.8733,Routine clinical review / monitoring
+Osteoarthritis,Yes,Yes,Yes,No,38,male,2,2,Positive,-0.637040571,0.971698463,0.948186068,Medium,Medium,1,0.9433,Routine clinical review / monitoring
+Pneumonia,Yes,Yes,Yes,Yes,38,male,1,1,Positive,-0.637040571,-0.723915355,-0.576776779,Low,Low,1,0.9033,Routine monitoring
+Klinefelter Syndrome,No,No,Yes,No,39,female,1,1,Positive,-0.560507986,-0.723915355,-0.576776779,Medium,Medium,1,0.8433,Routine clinical review / monitoring
+Acne,No,No,Yes,No,40,male,1,1,Negative,-0.483975401,-0.723915355,-0.576776779,Low,Low,1,0.6667,Routine monitoring
+Brain Tumor,No,No,Yes,No,40,male,1,1,Negative,-0.483975401,-0.723915355,-0.576776779,High,High,1,0.71,Clinical review recommended
+Bronchitis,No,Yes,No,Yes,40,female,1,1,Negative,-0.483975401,-0.723915355,-0.576776779,Low,Low,1,0.7767,Routine monitoring
+Cystic Fibrosis,No,No,Yes,Yes,40,male,2,2,Negative,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.9167,Routine clinical review / monitoring
+Diabetes,Yes,No,No,No,40,female,2,2,Negative,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Glaucoma,No,No,Yes,No,40,male,2,1,Negative,-0.483975401,0.971698463,-0.576776779,Medium,Medium,1,0.9133,Routine clinical review / monitoring
+Osteoarthritis,No,No,Yes,No,40,male,2,1,Negative,-0.483975401,0.971698463,-0.576776779,Medium,Medium,1,0.9433,Routine clinical review / monitoring
+Rabies,Yes,Yes,No,No,40,female,2,1,Negative,-0.483975401,0.971698463,-0.576776779,High,High,1,0.8667,Clinical review recommended
+Rabies,Yes,Yes,No,No,40,female,2,1,Negative,-0.483975401,0.971698463,-0.576776779,High,High,1,0.8667,Clinical review recommended
+Asthma,Yes,No,Yes,No,40,male,0,1,Positive,-0.483975401,-2.419529174,-0.576776779,Medium,Medium,1,0.9267,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,40,female,1,1,Positive,-0.483975401,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,40,female,1,1,Positive,-0.483975401,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Asthma,No,No,Yes,Yes,40,male,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.96,Routine clinical review / monitoring
+Asthma,Yes,No,Yes,Yes,40,male,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Medium,Medium,1,0.9667,Routine clinical review / monitoring
+Asthma,Yes,No,Yes,Yes,40,male,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Medium,Medium,1,0.9667,Routine clinical review / monitoring
+Chickenpox,No,Yes,No,No,40,male,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Low,Low,1,0.8933,Routine monitoring
+Chickenpox,No,Yes,No,No,40,male,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Low,Low,1,0.8933,Routine monitoring
+Coronary Artery Disease,No,No,Yes,No,40,female,2,2,Positive,-0.483975401,0.971698463,0.948186068,High,High,1,0.7567,Clinical review recommended
+Eating Disorders (Anorexia,No,No,Yes,No,40,female,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.8933,Routine clinical review / monitoring
+Fibromyalgia,No,No,Yes,No,40,female,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.8867,Routine clinical review / monitoring
+Gastroenteritis,Yes,Yes,Yes,No,40,male,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.98,Routine clinical review / monitoring
+Hemophilia,No,No,Yes,No,40,female,1,1,Positive,-0.483975401,-0.723915355,-0.576776779,High,High,1,0.88,Clinical review recommended
+Hyperthyroidism,No,No,Yes,No,40,male,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.9467,Routine clinical review / monitoring
+Hypoglycemia,No,No,Yes,No,40,female,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.7567,Routine clinical review / monitoring
+Lymphoma,No,Yes,No,No,40,female,1,2,Positive,-0.483975401,-0.723915355,0.948186068,High,Medium,0,0.8667,Routine clinical review / monitoring
+Pneumonia,Yes,Yes,Yes,Yes,40,female,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Low,Low,1,0.81,Routine monitoring
+Psoriasis,No,Yes,Yes,No,40,male,2,1,Positive,-0.483975401,0.971698463,-0.576776779,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Psoriasis,Yes,No,No,No,40,male,2,1,Positive,-0.483975401,0.971698463,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Psoriasis,No,Yes,No,No,40,female,1,2,Positive,-0.483975401,-0.723915355,0.948186068,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Tuberculosis,Yes,Yes,Yes,Yes,40,male,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.9067,Routine clinical review / monitoring
+Tuberculosis,Yes,Yes,Yes,Yes,40,male,2,2,Positive,-0.483975401,0.971698463,0.948186068,Medium,Medium,1,0.9067,Routine clinical review / monitoring
+Anxiety Disorders,No,No,No,No,42,male,0,1,Negative,-0.330910231,-2.419529174,-0.576776779,Medium,Medium,1,0.8933,Routine clinical review / monitoring
+Common Cold,Yes,Yes,No,No,42,female,2,2,Negative,-0.330910231,0.971698463,0.948186068,Low,Low,1,0.7733,Routine monitoring
+Depression,Yes,No,No,Yes,42,male,2,1,Negative,-0.330910231,0.971698463,-0.576776779,Medium,Medium,1,0.9367,Routine clinical review / monitoring
+Influenza,No,Yes,No,No,42,female,1,2,Negative,-0.330910231,-0.723915355,0.948186068,Low,Low,1,0.5,Routine monitoring
+Kidney Cancer,Yes,No,No,No,42,female,1,1,Negative,-0.330910231,-0.723915355,-0.576776779,High,Medium,0,0.56,Routine clinical review / monitoring
+Liver Cancer,Yes,No,Yes,Yes,42,male,1,0,Negative,-0.330910231,-0.723915355,-2.101739626,High,High,1,0.8233,Clinical review recommended
+Liver Disease,Yes,No,No,Yes,42,female,1,1,Negative,-0.330910231,-0.723915355,-0.576776779,High,Medium,0,0.5833,Routine clinical review / monitoring
+Lung Cancer,Yes,No,Yes,Yes,42,male,1,0,Negative,-0.330910231,-0.723915355,-2.101739626,High,High,1,0.7933,Clinical review recommended
+Migraine,Yes,Yes,Yes,No,42,male,2,2,Negative,-0.330910231,0.971698463,0.948186068,Medium,Medium,1,0.9033,Routine clinical review / monitoring
+Osteoarthritis,No,No,Yes,No,42,male,1,0,Negative,-0.330910231,-0.723915355,-2.101739626,Medium,Medium,1,0.86,Routine clinical review / monitoring
+Stroke,Yes,No,Yes,No,42,male,1,0,Negative,-0.330910231,-0.723915355,-2.101739626,High,High,1,0.8967,Clinical review recommended
+Urinary Tract Infection,No,Yes,Yes,Yes,42,female,1,0,Negative,-0.330910231,-0.723915355,-2.101739626,Low,Low,1,0.7867,Routine monitoring
+Diabetes,Yes,Yes,Yes,No,42,male,2,1,Positive,-0.330910231,0.971698463,-0.576776779,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Hypothyroidism,Yes,Yes,Yes,No,42,female,2,2,Positive,-0.330910231,0.971698463,0.948186068,Medium,Medium,1,0.8567,Routine clinical review / monitoring
+Hypothyroidism,Yes,Yes,Yes,No,42,female,2,2,Positive,-0.330910231,0.971698463,0.948186068,Medium,Medium,1,0.8567,Routine clinical review / monitoring
+Kidney Disease,Yes,No,Yes,No,42,female,2,0,Positive,-0.330910231,0.971698463,-2.101739626,High,High,1,0.7867,Clinical review recommended
+Pneumonia,No,Yes,Yes,Yes,43,female,2,1,Positive,-0.254377646,0.971698463,-0.576776779,Low,Low,1,0.8233,Routine monitoring
+Allergic Rhinitis,No,Yes,Yes,No,45,male,2,1,Negative,-0.101312476,0.971698463,-0.576776779,Low,Low,1,0.8433,Routine monitoring
+Autism Spectrum Disorder (ASD),No,No,Yes,No,45,male,1,1,Negative,-0.101312476,-0.723915355,-0.576776779,Medium,Medium,1,0.88,Routine clinical review / monitoring
+Crohn's Disease,Yes,No,Yes,No,45,male,2,1,Negative,-0.101312476,0.971698463,-0.576776779,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Hepatitis,Yes,No,Yes,No,45,female,2,2,Negative,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9433,Routine clinical review / monitoring
+Hepatitis,Yes,No,Yes,No,45,female,2,2,Negative,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9433,Routine clinical review / monitoring
+Hyperglycemia,No,No,Yes,No,45,male,1,1,Negative,-0.101312476,-0.723915355,-0.576776779,Medium,Medium,1,0.7233,Routine clinical review / monitoring
+Kidney Cancer,No,Yes,Yes,Yes,45,male,1,0,Negative,-0.101312476,-0.723915355,-2.101739626,High,High,1,0.89,Clinical review recommended
+Kidney Disease,Yes,Yes,No,No,45,male,1,2,Negative,-0.101312476,-0.723915355,0.948186068,High,High,1,0.7333,Clinical review recommended
+Melanoma,Yes,No,Yes,No,45,male,2,1,Negative,-0.101312476,0.971698463,-0.576776779,High,Medium,0,0.9067,Routine clinical review / monitoring
+Migraine,No,No,No,No,45,female,0,1,Negative,-0.101312476,-2.419529174,-0.576776779,Medium,Medium,1,0.8833,Routine clinical review / monitoring
+Ovarian Cancer,No,No,Yes,No,45,male,1,1,Negative,-0.101312476,-0.723915355,-0.576776779,High,High,1,0.68,Clinical review recommended
+Pancreatitis,No,Yes,Yes,Yes,45,male,1,0,Negative,-0.101312476,-0.723915355,-2.101739626,High,High,1,0.8167,Clinical review recommended
+Rheumatoid Arthritis,Yes,No,No,No,45,male,1,1,Negative,-0.101312476,-0.723915355,-0.576776779,Medium,Medium,1,0.9333,Routine clinical review / monitoring
+Stroke,No,No,Yes,No,45,male,1,1,Negative,-0.101312476,-0.723915355,-0.576776779,High,High,1,0.88,Clinical review recommended
+Turner Syndrome,No,No,Yes,No,45,male,2,2,Negative,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Turner Syndrome,No,No,Yes,No,45,male,2,2,Negative,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Urinary Tract Infection,No,No,No,No,45,female,0,1,Negative,-0.101312476,-2.419529174,-0.576776779,Low,Low,1,0.7633,Routine monitoring
+Zika Virus,No,Yes,Yes,No,45,female,2,2,Negative,-0.101312476,0.971698463,0.948186068,Low,Low,1,0.8667,Routine monitoring
+Zika Virus,No,Yes,Yes,No,45,female,2,2,Negative,-0.101312476,0.971698463,0.948186068,Low,Low,1,0.8667,Routine monitoring
+Allergic Rhinitis,Yes,Yes,Yes,No,45,male,2,1,Positive,-0.101312476,0.971698463,-0.576776779,Low,Low,1,0.79,Routine monitoring
+Anxiety Disorders,Yes,Yes,Yes,No,45,male,2,1,Positive,-0.101312476,0.971698463,-0.576776779,Medium,Medium,1,0.8433,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,45,male,1,1,Positive,-0.101312476,-0.723915355,-0.576776779,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Asthma,Yes,Yes,No,Yes,45,male,1,1,Positive,-0.101312476,-0.723915355,-0.576776779,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Cataracts,No,No,Yes,No,45,female,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.8533,Routine clinical review / monitoring
+Crohn's Disease,No,No,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9233,Routine clinical review / monitoring
+Crohn's Disease,Yes,Yes,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.8433,Routine clinical review / monitoring
+Depression,No,No,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9267,Routine clinical review / monitoring
+Diabetes,Yes,No,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.8333,Routine clinical review / monitoring
+Diabetes,No,Yes,Yes,No,45,male,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.9533,Routine clinical review / monitoring
+Hypertension,Yes,No,Yes,No,45,male,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.9333,Routine clinical review / monitoring
+Hypothyroidism,No,No,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9033,Routine clinical review / monitoring
+Liver Disease,Yes,Yes,Yes,No,45,female,1,2,Positive,-0.101312476,-0.723915355,0.948186068,High,High,1,0.7367,Clinical review recommended
+Multiple Sclerosis,Yes,No,No,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9,Routine clinical review / monitoring
+Multiple Sclerosis,Yes,No,No,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.9,Routine clinical review / monitoring
+Osteoarthritis,Yes,No,Yes,Yes,45,male,2,1,Positive,-0.101312476,0.971698463,-0.576776779,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Osteoporosis,Yes,Yes,Yes,No,45,female,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.92,Routine clinical review / monitoring
+Pneumocystis Pneumonia (PCP),Yes,Yes,Yes,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,High,High,1,0.6667,Clinical review recommended
+Pneumonia,Yes,Yes,Yes,Yes,45,male,2,2,Positive,-0.101312476,0.971698463,0.948186068,Low,Low,1,0.89,Routine monitoring
+Scoliosis,No,No,No,No,45,female,2,2,Positive,-0.101312476,0.971698463,0.948186068,Medium,Medium,1,0.89,Routine clinical review / monitoring
+Sickle Cell Anemia,No,No,Yes,No,45,female,1,1,Positive,-0.101312476,-0.723915355,-0.576776779,High,High,1,0.7233,Clinical review recommended
+Tetanus,No,No,Yes,No,45,male,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.98,Routine clinical review / monitoring
+Tetanus,No,No,Yes,No,45,male,1,2,Positive,-0.101312476,-0.723915355,0.948186068,Medium,Medium,1,0.98,Routine clinical review / monitoring
+Hypertension,No,No,No,No,48,female,0,2,Negative,0.128285279,-2.419529174,0.948186068,Medium,Medium,1,0.9133,Routine clinical review / monitoring
+Hypothyroidism,No,No,Yes,No,48,male,1,2,Negative,0.128285279,-0.723915355,0.948186068,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Hypothyroidism,No,No,Yes,No,48,male,1,2,Negative,0.128285279,-0.723915355,0.948186068,Medium,Medium,1,0.99,Routine clinical review / monitoring
+Allergic Rhinitis,Yes,No,No,No,50,male,2,2,Negative,0.281350448,0.971698463,0.948186068,Low,Medium,0,0.62,Routine clinical review / monitoring
+Anemia,No,No,Yes,No,50,male,1,1,Negative,0.281350448,-0.723915355,-0.576776779,Medium,Medium,1,0.96,Routine clinical review / monitoring
+Anxiety Disorders,No,No,Yes,No,50,male,1,1,Negative,0.281350448,-0.723915355,-0.576776779,Medium,Medium,1,0.92,Routine clinical review / monitoring
+Cholera,Yes,No,Yes,Yes,50,female,2,2,Negative,0.281350448,0.971698463,0.948186068,Low,Low,1,0.91,Routine monitoring
+Cholera,Yes,No,Yes,Yes,50,female,2,2,Negative,0.281350448,0.971698463,0.948186068,Low,Low,1,0.91,Routine monitoring
+Crohn's Disease,Yes,Yes,Yes,No,50,male,1,2,Negative,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.7167,Routine clinical review / monitoring
+Crohn's Disease,No,No,Yes,No,50,male,1,2,Negative,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Depression,No,Yes,Yes,No,50,female,0,0,Negative,0.281350448,-2.419529174,-2.101739626,Medium,Medium,1,0.79,Routine clinical review / monitoring
+Diabetes,No,Yes,No,No,50,male,1,2,Negative,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.86,Routine clinical review / monitoring
+Endometriosis,Yes,No,No,No,50,male,2,1,Negative,0.281350448,0.971698463,-0.576776779,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Hypertension,No,Yes,No,No,50,female,1,0,Negative,0.281350448,-0.723915355,-2.101739626,Medium,Medium,1,0.95,Routine clinical review / monitoring
+Hypothyroidism,Yes,Yes,Yes,No,50,male,1,2,Negative,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.8433,Routine clinical review / monitoring
+Kidney Cancer,No,Yes,No,No,50,male,0,2,Negative,0.281350448,-2.419529174,0.948186068,High,High,1,0.8533,Clinical review recommended
+Kidney Disease,No,Yes,No,Yes,50,male,1,1,Negative,0.281350448,-0.723915355,-0.576776779,High,High,1,0.4833,Clinical review recommended
+Pancreatitis,No,Yes,No,No,50,male,0,2,Negative,0.281350448,-2.419529174,0.948186068,High,High,1,0.78,Clinical review recommended
+Rheumatoid Arthritis,No,Yes,No,No,50,female,0,1,Negative,0.281350448,-2.419529174,-0.576776779,Medium,Medium,1,0.8767,Routine clinical review / monitoring
+Sepsis,Yes,Yes,Yes,No,50,male,1,1,Negative,0.281350448,-0.723915355,-0.576776779,High,High,1,0.7,Clinical review recommended
+Sleep Apnea,Yes,No,Yes,Yes,50,male,2,2,Negative,0.281350448,0.971698463,0.948186068,Medium,Medium,1,0.6767,Routine clinical review / monitoring
+Urinary Tract Infection,Yes,Yes,No,Yes,50,male,2,1,Negative,0.281350448,0.971698463,-0.576776779,Low,Low,1,0.76,Routine monitoring
+Asthma,Yes,Yes,Yes,Yes,50,female,1,2,Positive,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.9167,Routine clinical review / monitoring
+Bronchitis,Yes,Yes,Yes,Yes,50,male,2,2,Positive,0.281350448,0.971698463,0.948186068,Low,Low,1,0.88,Routine monitoring
+Down Syndrome,No,No,Yes,No,50,female,2,2,Positive,0.281350448,0.971698463,0.948186068,Medium,Medium,1,0.9067,Routine clinical review / monitoring
+Ebola Virus,Yes,Yes,Yes,Yes,50,male,1,1,Positive,0.281350448,-0.723915355,-0.576776779,High,High,1,0.8833,Clinical review recommended
+Ebola Virus,Yes,Yes,Yes,Yes,50,male,1,1,Positive,0.281350448,-0.723915355,-0.576776779,High,High,1,0.8833,Clinical review recommended
+Eczema,No,Yes,No,No,50,female,2,2,Positive,0.281350448,0.971698463,0.948186068,Medium,Medium,1,0.9133,Routine clinical review / monitoring
+Gastroenteritis,Yes,Yes,Yes,Yes,50,female,2,1,Positive,0.281350448,0.971698463,-0.576776779,Medium,Medium,1,0.7667,Routine clinical review / monitoring
+Klinefelter Syndrome,No,No,Yes,No,50,female,1,1,Positive,0.281350448,-0.723915355,-0.576776779,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Liver Cancer,No,Yes,Yes,Yes,50,male,2,2,Positive,0.281350448,0.971698463,0.948186068,High,High,1,0.84,Clinical review recommended
+Lyme Disease,Yes,No,No,No,50,male,1,2,Positive,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.9733,Routine clinical review / monitoring
+Lyme Disease,Yes,No,No,No,50,male,1,2,Positive,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.9733,Routine clinical review / monitoring
+Pancreatic Cancer,No,No,Yes,No,50,female,2,2,Positive,0.281350448,0.971698463,0.948186068,High,High,1,0.6567,Clinical review recommended
+Pneumothorax,No,No,Yes,Yes,50,female,2,2,Positive,0.281350448,0.971698463,0.948186068,Medium,Medium,1,0.85,Routine clinical review / monitoring
+Stroke,No,Yes,Yes,Yes,50,male,2,2,Positive,0.281350448,0.971698463,0.948186068,High,High,1,0.8667,Clinical review recommended
+Ulcerative Colitis,No,Yes,Yes,No,50,female,1,2,Positive,0.281350448,-0.723915355,0.948186068,Medium,Medium,1,0.9367,Routine clinical review / monitoring
+Hypertension,Yes,Yes,No,No,52,male,1,0,Negative,0.434415618,-0.723915355,-2.101739626,Medium,Medium,1,0.8367,Routine clinical review / monitoring
+Multiple Sclerosis,No,Yes,Yes,No,52,male,1,1,Negative,0.434415618,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Multiple Sclerosis,No,Yes,Yes,No,52,male,1,1,Negative,0.434415618,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Appendicitis,Yes,No,Yes,No,55,male,1,1,Negative,0.664013373,-0.723915355,-0.576776779,Low,Low,1,0.67,Routine monitoring
+Bronchitis,No,No,Yes,Yes,55,male,2,2,Negative,0.664013373,0.971698463,0.948186068,Low,Low,1,0.77,Routine monitoring
+Bronchitis,Yes,Yes,Yes,Yes,55,male,2,1,Negative,0.664013373,0.971698463,-0.576776779,Low,Low,1,0.7733,Routine monitoring
+Common Cold,Yes,No,Yes,Yes,55,male,1,0,Negative,0.664013373,-0.723915355,-2.101739626,Low,Low,1,0.4633,Routine monitoring
+Diabetes,No,Yes,No,No,55,female,1,2,Negative,0.664013373,-0.723915355,0.948186068,Medium,Medium,1,0.98,Routine clinical review / monitoring
+Esophageal Cancer,No,No,Yes,No,55,male,1,1,Negative,0.664013373,-0.723915355,-0.576776779,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+HIV/AIDS,Yes,No,No,No,55,female,2,2,Negative,0.664013373,0.971698463,0.948186068,High,High,1,0.9,Clinical review recommended
+HIV/AIDS,Yes,No,No,No,55,female,2,2,Negative,0.664013373,0.971698463,0.948186068,High,High,1,0.9,Clinical review recommended
+Hypertension,No,Yes,No,No,55,female,1,0,Negative,0.664013373,-0.723915355,-2.101739626,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+Liver Disease,No,Yes,Yes,No,55,male,2,0,Negative,0.664013373,0.971698463,-2.101739626,High,High,1,0.7467,Clinical review recommended
+Marfan Syndrome,No,No,Yes,No,55,male,2,2,Negative,0.664013373,0.971698463,0.948186068,Medium,Medium,1,0.9433,Routine clinical review / monitoring
+Migraine,No,Yes,Yes,Yes,55,female,1,0,Negative,0.664013373,-0.723915355,-2.101739626,Medium,Medium,1,0.83,Routine clinical review / monitoring
+Osteoporosis,No,No,Yes,No,55,male,2,1,Negative,0.664013373,0.971698463,-0.576776779,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+Parkinson's Disease,No,No,Yes,No,55,female,1,0,Negative,0.664013373,-0.723915355,-2.101739626,High,High,1,0.92,Clinical review recommended
+Parkinson's Disease,No,No,Yes,No,55,female,1,0,Negative,0.664013373,-0.723915355,-2.101739626,High,High,1,0.92,Clinical review recommended
+Anxiety Disorders,Yes,Yes,No,No,55,female,1,0,Positive,0.664013373,-0.723915355,-2.101739626,Medium,Medium,1,0.83,Routine clinical review / monitoring
+Coronary Artery Disease,No,No,Yes,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,High,High,1,0.8233,Clinical review recommended
+Coronary Artery Disease,No,No,Yes,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,High,High,1,0.8233,Clinical review recommended
+Hemorrhoids,No,No,No,No,55,female,2,2,Positive,0.664013373,0.971698463,0.948186068,Medium,Medium,1,0.9,Routine clinical review / monitoring
+Hypertension,Yes,No,Yes,No,55,male,2,1,Positive,0.664013373,0.971698463,-0.576776779,Medium,Medium,1,0.9733,Routine clinical review / monitoring
+Hypothyroidism,No,No,Yes,No,55,female,2,2,Positive,0.664013373,0.971698463,0.948186068,Medium,Medium,1,0.8867,Routine clinical review / monitoring
+Osteoarthritis,Yes,Yes,No,No,55,female,2,2,Positive,0.664013373,0.971698463,0.948186068,Medium,High,0,0.4233,Clinical review recommended
+Osteoporosis,Yes,No,Yes,Yes,55,male,2,0,Positive,0.664013373,0.971698463,-2.101739626,Medium,Medium,1,0.85,Routine clinical review / monitoring
+Osteoporosis,No,Yes,Yes,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,Medium,Medium,1,0.9833,Routine clinical review / monitoring
+Osteoporosis,Yes,No,Yes,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Osteoporosis,Yes,No,Yes,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,Medium,Medium,1,0.9633,Routine clinical review / monitoring
+Polycystic Ovary Syndrome (PCOS),Yes,Yes,No,No,55,female,1,1,Positive,0.664013373,-0.723915355,-0.576776779,Medium,Medium,1,0.65,Routine clinical review / monitoring
+Systemic Lupus Erythematosus...,No,Yes,Yes,No,55,female,2,2,Positive,0.664013373,0.971698463,0.948186068,Medium,Medium,1,0.9133,Routine clinical review / monitoring
+Typhoid Fever,No,Yes,No,No,55,male,1,0,Positive,0.664013373,-0.723915355,-2.101739626,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Typhoid Fever,No,Yes,No,No,55,male,1,0,Positive,0.664013373,-0.723915355,-2.101739626,Medium,Medium,1,0.91,Routine clinical review / monitoring
+Influenza,Yes,Yes,Yes,Yes,56,male,2,2,Positive,0.740545958,0.971698463,0.948186068,Low,Low,1,0.8467,Routine monitoring
+Pneumonia,Yes,Yes,No,Yes,57,male,1,2,Negative,0.817078543,-0.723915355,0.948186068,Low,Low,1,0.83,Routine monitoring
+Breast Cancer,No,No,Yes,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,High,Medium,0,0.85,Routine clinical review / monitoring
+Coronary Artery Disease,Yes,Yes,No,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,High,High,1,0.9333,Clinical review recommended
+Coronary Artery Disease,Yes,Yes,No,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,High,High,1,0.9333,Clinical review recommended
+Hyperthyroidism,No,No,Yes,No,60,male,1,1,Negative,1.046676298,-0.723915355,-0.576776779,Medium,Medium,1,0.9533,Routine clinical review / monitoring
+Measles,Yes,Yes,No,No,60,female,2,1,Negative,1.046676298,0.971698463,-0.576776779,Low,Low,1,0.8533,Routine monitoring
+Measles,Yes,Yes,No,No,60,female,2,1,Negative,1.046676298,0.971698463,-0.576776779,Low,Low,1,0.8533,Routine monitoring
+Osteoarthritis,No,Yes,No,Yes,60,female,1,1,Negative,1.046676298,-0.723915355,-0.576776779,Medium,Medium,1,0.7967,Routine clinical review / monitoring
+Osteomyelitis,No,No,Yes,No,60,male,1,1,Negative,1.046676298,-0.723915355,-0.576776779,Medium,Medium,1,0.9467,Routine clinical review / monitoring
+Osteoporosis,Yes,No,No,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.9067,Routine clinical review / monitoring
+Osteoporosis,No,Yes,No,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+Osteoporosis,No,Yes,No,No,60,male,2,2,Negative,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.9567,Routine clinical review / monitoring
+Polio,Yes,Yes,Yes,No,60,male,1,1,Negative,1.046676298,-0.723915355,-0.576776779,Medium,Medium,1,0.7567,Routine clinical review / monitoring
+Asthma,Yes,Yes,Yes,Yes,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.6633,Routine clinical review / monitoring
+Chronic Kidney Disease,No,No,Yes,No,60,female,1,2,Positive,1.046676298,-0.723915355,0.948186068,High,High,1,0.7,Clinical review recommended
+Hemophilia,No,No,Yes,No,60,female,1,1,Positive,1.046676298,-0.723915355,-0.576776779,High,High,1,0.8267,Clinical review recommended
+Hepatitis B,No,Yes,Yes,No,60,male,1,0,Positive,1.046676298,-0.723915355,-2.101739626,Medium,Medium,1,0.9367,Routine clinical review / monitoring
+Hepatitis B,No,Yes,Yes,No,60,male,1,0,Positive,1.046676298,-0.723915355,-2.101739626,Medium,Medium,1,0.9367,Routine clinical review / monitoring
+Hypertension,No,No,Yes,No,60,female,2,1,Positive,1.046676298,0.971698463,-0.576776779,Medium,Medium,1,0.89,Routine clinical review / monitoring
+Hypertension,Yes,No,Yes,No,60,male,2,1,Positive,1.046676298,0.971698463,-0.576776779,Medium,Medium,1,0.9767,Routine clinical review / monitoring
+Hypertension,No,No,No,No,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.8967,Routine clinical review / monitoring
+Kidney Cancer,Yes,Yes,Yes,No,60,female,2,1,Positive,1.046676298,0.971698463,-0.576776779,High,High,1,0.8367,Clinical review recommended
+Kidney Disease,Yes,Yes,Yes,Yes,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,High,High,1,0.76,Clinical review recommended
+Osteoporosis,Yes,No,Yes,No,60,male,2,1,Positive,1.046676298,0.971698463,-0.576776779,Medium,Medium,1,0.98,Routine clinical review / monitoring
+Pancreatitis,Yes,Yes,Yes,No,60,female,2,1,Positive,1.046676298,0.971698463,-0.576776779,High,High,1,0.6467,Clinical review recommended
+Parkinson's Disease,Yes,Yes,No,No,60,male,2,1,Positive,1.046676298,0.971698463,-0.576776779,High,High,1,0.8433,Clinical review recommended
+Parkinson's Disease,Yes,Yes,No,No,60,male,2,1,Positive,1.046676298,0.971698463,-0.576776779,High,High,1,0.8433,Clinical review recommended
+Prader-Willi Syndrome,No,No,Yes,No,60,female,1,1,Positive,1.046676298,-0.723915355,-0.576776779,Medium,Medium,1,0.79,Routine clinical review / monitoring
+Rheumatoid Arthritis,No,No,Yes,No,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,Medium,Medium,1,0.5867,Routine clinical review / monitoring
+Thyroid Cancer,No,No,Yes,No,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,High,High,1,0.72,Clinical review recommended
+Tuberculosis,Yes,Yes,Yes,No,60,female,2,2,Positive,1.046676298,0.971698463,0.948186068,Medium,High,0,0.64,Clinical review recommended
+Bladder Cancer,No,No,Yes,No,65,male,1,1,Negative,1.429339223,-0.723915355,-0.576776779,High,Medium,0,0.8133,Routine clinical review / monitoring
+Diabetes,No,No,Yes,No,65,male,1,2,Negative,1.429339223,-0.723915355,0.948186068,Medium,Medium,1,0.8933,Routine clinical review / monitoring
+Otitis Media (Ear Infection),Yes,Yes,Yes,No,65,male,1,1,Negative,1.429339223,-0.723915355,-0.576776779,Low,Low,1,0.6733,Routine monitoring
+Stroke,Yes,No,Yes,No,65,female,2,0,Negative,1.429339223,0.971698463,-2.101739626,High,High,1,0.9767,Clinical review recommended
+Stroke,Yes,No,Yes,No,65,female,2,0,Negative,1.429339223,0.971698463,-2.101739626,High,High,1,0.9767,Clinical review recommended
+Tourette Syndrome,No,No,Yes,No,65,male,2,2,Negative,1.429339223,0.971698463,0.948186068,Medium,Medium,1,0.9133,Routine clinical review / monitoring
+Urinary Tract Infection (UTI),Yes,No,Yes,No,65,male,2,1,Negative,1.429339223,0.971698463,-0.576776779,Medium,Medium,1,0.9167,Routine clinical review / monitoring
+Alzheimer's Disease,No,Yes,No,No,65,male,1,2,Positive,1.429339223,-0.723915355,0.948186068,High,High,1,0.9067,Clinical review recommended
+Alzheimer's Disease,No,Yes,No,No,65,male,1,2,Positive,1.429339223,-0.723915355,0.948186068,High,High,1,0.9067,Clinical review recommended
+Alzheimer's Disease,No,No,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.7967,Clinical review recommended
+Bronchitis,Yes,No,Yes,Yes,65,male,2,2,Positive,1.429339223,0.971698463,0.948186068,Low,Low,1,0.5333,Routine monitoring
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.89,Clinical review recommended
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.89,Clinical review recommended
+Dementia,No,No,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,Medium,0,0.5967,Routine clinical review / monitoring
+Diabetes,Yes,Yes,Yes,No,65,female,1,2,Positive,1.429339223,-0.723915355,0.948186068,Medium,Medium,1,0.8067,Routine clinical review / monitoring
+Diverticulitis,No,No,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,Medium,Medium,1,0.7833,Routine clinical review / monitoring
+Liver Cancer,Yes,Yes,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.8733,Clinical review recommended
+Lung Cancer,Yes,Yes,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.8333,Clinical review recommended
+Lung Cancer,Yes,No,Yes,No,65,female,1,2,Positive,1.429339223,-0.723915355,0.948186068,High,Medium,0,0.5633,Routine clinical review / monitoring
+Mumps,No,No,Yes,No,65,male,1,2,Positive,1.429339223,-0.723915355,0.948186068,Low,Low,1,0.8733,Routine monitoring
+Mumps,No,No,Yes,No,65,male,1,2,Positive,1.429339223,-0.723915355,0.948186068,Low,Low,1,0.8733,Routine monitoring
+Osteoporosis,No,Yes,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,Medium,Medium,1,0.8867,Routine clinical review / monitoring
+Stroke,Yes,Yes,Yes,No,65,female,2,2,Positive,1.429339223,0.971698463,0.948186068,High,High,1,0.9633,Clinical review recommended
+Alzheimer's Disease,Yes,No,Yes,No,70,female,2,1,Negative,1.812002148,0.971698463,-0.576776779,High,High,1,0.78,Clinical review recommended
+Alzheimer's Disease,Yes,No,Yes,No,70,female,2,1,Negative,1.812002148,0.971698463,-0.576776779,High,High,1,0.78,Clinical review recommended
+Cholecystitis,No,No,Yes,No,70,male,1,1,Negative,1.812002148,-0.723915355,-0.576776779,Medium,Medium,1,0.8767,Routine clinical review / monitoring
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,70,male,1,2,Negative,1.812002148,-0.723915355,0.948186068,High,High,1,0.9367,Clinical review recommended
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,70,male,1,2,Negative,1.812002148,-0.723915355,0.948186068,High,High,1,0.9367,Clinical review recommended
+Osteoporosis,Yes,No,No,No,70,male,1,1,Negative,1.812002148,-0.723915355,-0.576776779,Medium,Medium,1,0.92,Routine clinical review / monitoring
+Parkinson's Disease,No,No,Yes,No,70,male,1,1,Negative,1.812002148,-0.723915355,-0.576776779,High,High,1,0.7633,Clinical review recommended
+Prostate Cancer,Yes,Yes,No,No,70,male,2,1,Negative,1.812002148,0.971698463,-0.576776779,High,High,1,0.84,Clinical review recommended
+Schizophrenia,No,Yes,Yes,No,70,male,1,1,Negative,1.812002148,-0.723915355,-0.576776779,Medium,Medium,1,0.6233,Routine clinical review / monitoring
+Gout,Yes,No,Yes,No,70,female,1,2,Positive,1.812002148,-0.723915355,0.948186068,Medium,Medium,1,0.8133,Routine clinical review / monitoring
+Migraine,No,No,Yes,No,70,female,1,1,Positive,1.812002148,-0.723915355,-0.576776779,Medium,Medium,1,0.9,Routine clinical review / monitoring
+Stroke,No,Yes,No,No,70,male,1,2,Positive,1.812002148,-0.723915355,0.948186068,High,High,1,0.78,Clinical review recommended
+Stroke,No,Yes,No,No,70,male,1,2,Positive,1.812002148,-0.723915355,0.948186068,High,High,1,0.78,Clinical review recommended
+Testicular Cancer,No,No,Yes,No,70,female,2,2,Positive,1.812002148,0.971698463,0.948186068,Medium,Medium,1,0.61,Routine clinical review / monitoring
+Tonsillitis,Yes,Yes,Yes,No,70,female,2,2,Positive,1.812002148,0.971698463,0.948186068,Low,High,0,0.7167,Clinical review recommended
+Williams Syndrome,No,No,Yes,No,70,female,1,1,Positive,1.812002148,-0.723915355,-0.576776779,Medium,Medium,1,0.8467,Routine clinical review / monitoring
+Stroke,Yes,No,Yes,No,80,female,2,2,Positive,2.577327997,0.971698463,0.948186068,High,High,1,1.0,Clinical review recommended
+Stroke,Yes,No,Yes,No,80,female,2,2,Positive,2.577327997,0.971698463,0.948186068,High,High,1,1.0,Clinical review recommended
+Stroke,Yes,No,Yes,No,85,male,2,2,Positive,2.959990922,0.971698463,0.948186068,High,High,1,0.9567,Clinical review recommended
+Stroke,Yes,No,Yes,No,85,male,2,2,Positive,2.959990922,0.971698463,0.948186068,High,High,1,0.9567,Clinical review recommended
+Stroke,Yes,No,Yes,No,90,female,2,2,Positive,3.342653847,0.971698463,0.948186068,High,High,1,1.0,Clinical review recommended
+Stroke,Yes,No,Yes,No,90,female,2,2,Positive,3.342653847,0.971698463,0.948186068,High,High,1,1.0,Clinical review recommended
